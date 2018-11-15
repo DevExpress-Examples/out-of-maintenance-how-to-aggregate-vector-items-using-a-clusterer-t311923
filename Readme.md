@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/ClustererSample/MainWindow.xaml) (VB: [MainWindow.xaml.vb](./VB/ClustererSample/MainWindow.xaml.vb))
+* [MainWindow.xaml.cs](./CS/ClustererSample/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/ClustererSample/MainWindow.xaml.vb))
+<!-- default file list end -->
 # How to aggregate vector items using a clusterer
 
 
