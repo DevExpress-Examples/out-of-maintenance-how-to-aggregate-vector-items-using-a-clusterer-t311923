@@ -14,7 +14,7 @@
     
     <Grid>
 
-        <dxm:MapControl x:Name="map">
+        <dxm:MapControl x:Name="map" CenterPoint="-37.55, 143.78" ZoomLevel="12">
             <dxm:ImageTilesLayer>
                 <dxm:BingMapDataProvider BingKey="YourBingKeyHere"/>
             </dxm:ImageTilesLayer>
@@ -33,7 +33,7 @@
                         <dxm:MapDotSettings/>
                     </dxm:ListSourceDataAdapter.ItemSettings>
                     <dxm:ListSourceDataAdapter.Clusterer>
-                        <dxm:MarkerClusterer Clustered="MarkerClusterer_Clustered">
+                        <dxm:MarkerClusterer>
                             <dxm:MarkerClusterer.GroupProvider>
                                 <dxm:AttributeGroupProvider AttributeName="location"/>
                             </dxm:MarkerClusterer.GroupProvider>
