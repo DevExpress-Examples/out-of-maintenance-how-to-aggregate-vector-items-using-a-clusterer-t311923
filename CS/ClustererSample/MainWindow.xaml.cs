@@ -7,8 +7,5 @@ namespace ClustererSample {
             InitializeComponent();
         }
 
-        private void MarkerClusterer_Clustered(object sender, ClusteredEventArgs e) {
-            map.ZoomToFitLayerItems();
-        }
     }
 }
