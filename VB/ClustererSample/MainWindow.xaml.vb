@@ -1,13 +1,12 @@
-﻿Imports System.Windows
-Imports DevExpress.Xpf.Map
+Imports System.Windows
 
 Namespace ClustererSample
-	Partial Public Class MainWindow
-		Inherits Window
 
-		Public Sub New()
-			InitializeComponent()
-		End Sub
+    Public Partial Class MainWindow
+        Inherits Window
 
-	End Class
+        Public Sub New()
+            Me.InitializeComponent()
+        End Sub
+    End Class
 End Namespace
